@@ -57,18 +57,10 @@ Engine • revision 3d37d39d95
 Tools • Dart 2.8.0 (build 2.8.0-dev.0.0 395daaa3ec)
 ```
 
-## 1.9 同步flutter engine 版本，编辑`.gclient`配置文件
+## 1.9 同步flutter engine 版本
 ```
-solutions = [
-  {
-    "managed": False,
-    "name": "src/flutter",
-    "url": "https://github.com/flutter/engine.git@3d37d39d95",
-    "custom_deps": {},
-    "deps_file": "DEPS",
-    "safesync_url": "",
-  },
-]
+cd src/flutter
+git checkout 3d37d39d95
 ```
 
 ### 再次执行命令
